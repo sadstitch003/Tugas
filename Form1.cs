@@ -57,7 +57,7 @@ namespace Tugas
             else if (TxtboxInput.Text.ToUpper() == "BESARKAN")
             {
                 LblOutput.Font = new System.Drawing.Font(LblOutput.Font.FontFamily, LblOutput.Font.Size + 1F, LblOutput.Font.Style);
-            }
+            } 
             else if (TxtboxInput.Text.ToUpper() == "KECILKAN")
             {
                 if (LblOutput.Font.Size > 7) LblOutput.Font = new System.Drawing.Font(LblOutput.Font.FontFamily, LblOutput.Font.Size - 1F, LblOutput.Font.Style);
@@ -72,7 +72,7 @@ namespace Tugas
                 LblOutput.Text = "Syntax tidak terdaftar !";
             }
 
-            TxtboxInput.Text = null;
+            TxtboxInput.Text = "";
         }
     }
 }
