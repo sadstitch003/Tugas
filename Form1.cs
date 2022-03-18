@@ -48,7 +48,7 @@ namespace Tugas
             }
             else if (TxtboxInput.Text.ToUpper() == "SHOWN")
             {
-                TxtboxInput.Visible = true;
+                LblOutput.Visible = true;
             }
             else if (TxtboxInput.Text.ToUpper() == "HIDE")
             {
