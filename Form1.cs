@@ -58,7 +58,7 @@ namespace Tugas
             {
                 LblOutput.Font = new System.Drawing.Font(LblOutput.Font.FontFamily, LblOutput.Font.Size + 1F, LblOutput.Font.Style);
             } 
-            else if (TxtboxInput.Text.ToUpper() == "KECILKAN")
+            else if (TxtboxInput.Text.ToUpper() == "KECILKAN") 
             {
                 if (LblOutput.Font.Size > 7) LblOutput.Font = new System.Drawing.Font(LblOutput.Font.FontFamily, LblOutput.Font.Size - 1F, LblOutput.Font.Style);
             }
